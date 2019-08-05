@@ -16,7 +16,7 @@ module.exports = function(app) {
         );
     });
 
-    app.post("/search", (req, res) => {
+    app.post("./search", (req, res) => {
         // set bookTitle to the req.body.title with spaces replaced with plus signs(+)
         let bookTitle = req.body.title.replace(/\s/g, "+");
         axios.get(
