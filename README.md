@@ -11,6 +11,7 @@ Built with react, this app untilizes the google books api to pull the books and 
 * JQuery
 * Axios
 * Express
+* MongoDB
 * Mongoose
 
 
